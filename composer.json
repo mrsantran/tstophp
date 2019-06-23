@@ -1,0 +1,21 @@
+{
+  "name": "santran/tstophp",
+  "description": "Typescript definition converter to PHP",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "San Tran",
+      "email": "santran686@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.3.3 || ^7.0",
+    "nette/php-generator": "v2.6"
+  },
+  "autoload": {
+    "classmap": [
+      "lib/converter.php"
+    ]
+  }
+}
